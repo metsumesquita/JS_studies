@@ -1,0 +1,49 @@
+/* 3. Use CSS to change all the color titles to have "font-weight: normal;" */
+* {
+  font-weight: normal;
+}
+
+/* 2. Use CSS to style each of the color titles to meaning (use IDs) */
+#red {
+  color: red;
+  
+  -webkit-text-stroke: 1px rgba(193, 91, 37, 0.616); /* Chrome, Edge, Safari */
+  font-weight: normal;
+}
+
+#blue {
+  color: blue;
+  
+  -webkit-text-stroke: 1px rgba(8, 87, 115, 0.848); /* Chrome, Edge, Safari */
+  font-weight: normal;
+}
+
+#orange {
+  color: orange;
+  
+  -webkit-text-stroke: 1px rgba(245, 115, 21, 0.616); /* Chrome, Edge, Safari */
+  font-weight: normal;
+}
+
+#green {
+  color: green;
+  
+  -webkit-text-stroke: 1px rgba(102, 139, 96, 0.616); /* Chrome, Edge, Safari */
+  font-weight: normal;
+}
+
+#yellow {
+
+  color: yellow;
+  -webkit-text-stroke: 1px rgba(86, 75, 3, 0.616); /* Chrome, Edge, Safari */
+  font-weight: normal;
+}
+
+/* 4. Use CSS (not HTML) to make all the images 200px high and 200px wide */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
